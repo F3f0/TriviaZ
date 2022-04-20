@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-light.css" id="theme-selector">
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+    <title>??? TRIVIAZ ???</title>
+</head>
+<body background="./img/qstmarkblk.png">
+    <div class="controls-container">
+        <div class="logo">
+            <h1 id="triviaz">TRIVIAZ</h1>
+        </div>
+
+        <div>
+         <button id="dark-button">Dark-mode</button>
+        </div>
+
+        <div>
+            <div class="h3-highlight">
+                <h3>Select a category</h3>
+            </div>
+        </div>
+        <div>
+            <input type="radio" name="category" id="history" value="23" />
+            <label for="history">History</label>
+            <input type="radio" name="category" id="geography" value="22" />
+            <label for="geography">Film</label>
+            <input type="radio" name="category" id="sport" value="21" />
+            <label for="sport">Sport</label>
+            <input type="radio" name="category" id="animals" value="27" />
+            <label for="animals">Animals</label>
+            <input type="radio" name="category" id="music" value="12" />
+            <label for="music">Music</label>
+        </div>
+
+        <div>
+            <div class="h3-highlight">
+                <h3>Select a difficulty</h3>
+            </div>
+        </div>
+        <div>
+            <input type="radio" name="difficulty" id="easy" value="easy" />
+            <label for="easy">Easy</label>
+            <input type="radio" name="difficulty" id="medium" value="medium" />
+            <label for="medium">Medium</label>
+            <input type="radio" name="difficulty" id="hard" value="hard" />
+            <label for="hard">Hard</label>
+        </div>
+
+        <div>
+            <div class="h3-highlight">
+                <h3>Number of questions</h3>
+            </div>
+        </div>
+        <div>
+            <input type="radio" name="amount" id="five" value="5" />
+            <label for="five">5</label>
+             <input type="radio" name="amount" id="ten" value="10" />
+             <label for="ten">10</label>
+            <input type="radio" name="amount" id="fifteen" value="15" />
+            <label for="fifteen">15</label>
+        </div>
+
+        <div>
+            <div class="h3-highlight">
+                <h3>Game type</h3>
+            </div>
+        </div>
+        <div>
+            <input type="radio" name="type" id="boolean" value="boolean" />
+            <label for="boolean">True/False</label>
+            <input type="radio" name="type" id="multiple" value="multiple" />
+            <label for="multiple">Multiple choice</label>
+        </div>
+
+        <div>
+            <h3>Get your questions!!!</h3>
+        </div>
+        <div>
+            <button id="button-start">START</button>
+        </div>
+    </div>
+
+    <div id="endButtons"></div>
+    <script src="mainQuery.js"></script>
+</body>
+</html>
